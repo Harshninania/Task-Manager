@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>π - π ka Hisab | Sign Up</title>
+  <link rel="stylesheet" href="signup.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+  <div class="container">
+    <div class="background"></div>
+    <div class="login-box">
+      <div class="logo">
+        <h2 id="login-title">Sign Up</h2>
+        <p class="tagline">A few steps away from something awesome</p>
+      </div>
+
+      <form id="signupForm">
+        <input type="text" id="enrollment" placeholder="Enrollment No." required>
+        <input type="email" id="email" placeholder="E-mail" required>
+
+        <button type="button" class="login-btn" id="sendOtpBtn">Send OTP</button>
+
+        <input type="text" id="otpInput" placeholder="Enter OTP" style="display: none;">
+        <button type="button" class="login-btn" id="verifyOtpBtn" style="display: none;">Verify OTP</button>
+
+        <input type="password" id="password" placeholder="Password" required>
+        <input type="password" id="confirmPassword" placeholder="Re-Enter Password" required>
+
+        <button type="submit" class="login-btn" id="registerBtn">Register</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="signup.js"></script>
+</body>
+</html>
